@@ -121,6 +121,7 @@ export const favorite = mutation({
         q
           .eq("userId", userId)
           .eq("boardId", board._id)
+        
       )
       .unique();
 
